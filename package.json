@@ -1,0 +1,20 @@
+{
+  "name": "peerchat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js:bundle.js"
+  },
+  "author": "Michael Zampogna <mrz@jetscholar.com> (http://jetscholar.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "budo": "^4.2.2"
+  },
+  "dependencies": {
+    "budo": "^4.2.2",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "simple-peer": "^6.0.2"
+  }
+}
